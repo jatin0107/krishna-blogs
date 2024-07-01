@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+body{
+  background-image: url("https://1.bp.blogspot.com/-7LelMfwVWHE/XwLAP3AbehI/AAAAAAAA6xQ/msegLxI-PuohIPmnRY-39oIuI1TwogkMwCLcBGAsYHQ/s1600/Shree%2BKrishna%2Banimation%2Bwallpaper.PNG");
+  
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #ffd60a;
+}
+.navbar .links {
+  margin-left: auto;
+  font: 20px solid black;
+  
+}
+.navbar a {
+  font-size: 15px;
+  font-weight: 100;
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #ffd60a;
+  text-decoration: underline;
+}
+.navbar a.active {
+  color: red; /* Change to desired highlight color */
+  font-weight: bold;
+}
+.links button{
+  background-color: #ffd60a;
+  border-radius: 10px;
+  color: aliceblue;
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+  display: flex;
+  align-items: center;
+  
+}
+.blog-preview button{
+  margin-left: 400px;
+  background-color: #333;
+  color: #ffd60a;
+  font-size: 15px;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #ffd60a;
+  margin-bottom: 8px;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: #ffd60a;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  background: #ffd60a;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #ffd60a;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #ffd60a;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.links Link:active{
+  color: aqua;
+}
