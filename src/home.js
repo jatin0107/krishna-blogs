@@ -4,7 +4,7 @@ import useFetch from './usefetch';
  const Home = () => {
     const [name,setName]=useState('Hare Krishna');
      let handleclick=()=>{
-        setName('कर्माणि एव अधिकारः ते मा फलेषु कदाचन । मा कर्म-फल हेतुः भूः मा ते संगः अस्तु अकर्मणि ।।');   
+        setName('यदा यदा हि धर्मस्य ग्लानिर्भवति भारतअभ्युत्थानमधर्मस्य तदात्मानं सृजाम्यहम् || 7||');   
     }
     
      const {data:blogs,isPending,error}=useFetch("http://localhost:8000/blogs");  
